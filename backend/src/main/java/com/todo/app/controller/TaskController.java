@@ -7,7 +7,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/tasks")
-@CrossOrigin(origins = "*"git add .)
+@CrossOrigin(origins = "*")
 public class TaskController {
 
     private final TaskRepository taskRepository;
