@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* In v4, custom classes using @apply need to come after the import */
+@layer components {
+  .glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-xl;
+  }
+}
+
+/* Optional: Keep your global text color readable */
+body {
+  @apply text-white antialiased;
+}
